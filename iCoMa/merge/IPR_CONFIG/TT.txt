@@ -1,0 +1,27 @@
+# TC Parameters
+
+# RF Model Configuration
+script_name=DL_UDP_1UE_OFF_OFF
+atten_jfw=no
+atten_start=1
+atten_stop=1
+atten_step=1
+atten_max=
+
+# Data Session Configuration
+data_iperf_log=yes
+data_multistream=no
+data_client_host_name=SERVER1
+data_server_host_name=UE1
+data_direction=dl
+data_rate=25M
+data_packet_length=1300
+data_protocol=udp
+data_duration=30
+data_server_string=iperf -s
+data_client_string=iperf -c
+data_server_string_append=-p5501
+data_client_string_append=-p5501
+
+# Logging  Configuration
+

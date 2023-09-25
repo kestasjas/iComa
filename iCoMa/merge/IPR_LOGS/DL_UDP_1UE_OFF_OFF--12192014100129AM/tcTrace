@@ -1,0 +1,19 @@
+
+CALIBRATION NOT REQUIRED
+Start telnet
+IPERF string: iperf -s -u -i1 -fm -l1300 -p5501
+Connect...
+
+Start telnet
+Connect...
+Connected...
+Connected...
+
+
+
+
+
+CLIENT TELNET LOGIN ERROR *******
+SERVER TELNET LOGIN ERROR *******
+SERVER THREAD EXIT
+CLIENT THREAD EXIT
